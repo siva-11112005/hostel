@@ -139,3 +139,60 @@ button a:hover {
 
 </body>
 </html>
+#submit page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Success</title>
+    <style>
+        body {
+            background: linear-gradient(to right, rgb(233, 104, 192), rgb(138, 5, 96));
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            color: white;
+        }
+        .b {
+            background-color: rgba(239, 66, 66, 0.9);
+            width: 400px;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            margin: 150px auto;
+            text-align: center;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        button {
+            margin-top: 30px;
+            border: none;
+            border-radius: 8px;
+            padding: 12px 20px;
+            background-color: rgb(32, 102, 12);
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s ease, transform 0.2s;
+        }
+        button:hover {
+            background-color: rgb(25, 85, 10);
+            transform: scale(1.05);
+        }
+        button a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="b">
+        <h1>Your Booking is Successful! 🎉</h1>
+        <button><a href="srikar.html">Book Another Room</a></button>
+    </div>
+</body>
+</html>
+
